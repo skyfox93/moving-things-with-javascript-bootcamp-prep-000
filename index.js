@@ -6,4 +6,5 @@ document.addEventListener('keydown', function(e) {
  
     dodger.style.left = `${left - 1}px`
   }
+  if(e.which===38){}
 })
