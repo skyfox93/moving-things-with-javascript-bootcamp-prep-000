@@ -6,5 +6,6 @@ document.addEventListener('keydown', function(e) {
  
     dodger.style.left = `${left - 1}px`
   }
-  if(e.which===38){}
-})
+  if(e.which===38){var rightNumbers = dodger.style.right.replace('px','')
+    var right = parseInt(rightNumbers, 10);}
+});
